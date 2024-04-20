@@ -1,0 +1,9 @@
+{
+  "name": "npad",
+  "version": "1.0.0",
+  "main": "./src/main.js",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^30.0.1"
+  }
+}
