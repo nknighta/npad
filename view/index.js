@@ -1,4 +1,7 @@
 //const { ipcRenderer, BrowserWindow, dialog } = require('electron');
+const appversion = document.getElementById('appversion');
+const json = require('../package.json');
+appversion.innerHTML = " .ver: " + json.version;
 const { BrowserWindow, ipcRenderer, dialog } = require('electron');
 const fs = require('fs');
 const windowtitle = document.getElementById('title');
@@ -13,7 +16,7 @@ editorElement.style.resize = "none";
 editorElement.style.border = "none";
 editorElement.style.outline = "none";
 editorElement.style.padding = "10px";
-editorElement.style.backgroundColor = "#ffffff22"; // 大きさが分かりやすいように背景色を追加
+editorElement.style.backgroundColor = "#000"; // 大きさが分かりやすいように背景色を追加
 editorcontainer.appendChild(editorElement);
 
 function resizeWindow() {
@@ -28,7 +31,6 @@ document.querySelector('#btn-save').addEventListener('click', () => {
   // メインプロセスを呼び出し
   saveFile();
 });
-
 // btn-open
 //openFileボタンが押されたとき（ファイル名取得まで）
 

@@ -1,15 +1,10 @@
 {
   "name": "npad",
-  "version": "1.0.0",
+  "version": "0.3.1",
   "main": "./src/main.js",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "dependencies": {
-    "electron": "^30.0.1",
-    "fs": "^0.0.1-security",
-    "path": "^0.12.7",
-    "webpack": "^5.91.0"
+    "electron": "^30.0.1"
   },
-  "devDependencies": {
-    "webpack-cli": "^5.1.4"
-  }
+  "devDependencies": {}
 }
