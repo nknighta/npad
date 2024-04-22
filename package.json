@@ -4,6 +4,12 @@
   "main": "./src/main.js",
   "license": "MIT",
   "dependencies": {
-    "electron": "^30.0.1"
+    "electron": "^30.0.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "webpack": "^5.91.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
   }
 }
