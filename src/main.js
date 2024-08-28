@@ -3,8 +3,10 @@ const fs = require('fs')
 function createWindow() {
     const mainWindow = new BrowserWindow({
         opacity: 0.9,
-        width: 600,
+        width: 1000,
+        minWidth: 600,
         height: 900,
+        minHeight: 600,
         autoHideMenuBar: true,
         titleBarStyle: 'hidden',
         titleBarOverlay: {

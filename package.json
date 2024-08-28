@@ -4,7 +4,8 @@
   "main": "./src/main.js",
   "license": "Apache-2.0",
   "dependencies": {
-    "electron": "^30.0.1"
+    "electron": "^30.0.1",
+    "monaco-editor": "^0.48.0"
   },
   "devDependencies": {}
 }
